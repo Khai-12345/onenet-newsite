@@ -3,6 +3,8 @@ window.addEventListener("load", function () {
   let crew_card_row_count = 1;
   let crew_join_misfits_count = 1;
 
+  let testing_variable = 1;
+
   $(".crew-join-misfits-cms-list .crew-join-misfits-cms-item").each(
     function () {
       // let item_index = $(this).index();
