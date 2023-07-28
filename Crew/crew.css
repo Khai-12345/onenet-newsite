@@ -1,0 +1,28 @@
+.popup_item,
+.popup_content,
+.popup_bg {
+  opacity: 0;
+}
+
+.popup_item {
+  pointer-events: none;
+}
+.popup_content-contain .rich-text-element a {
+  text-decoration: underline;
+  color: #d1aeff;
+  transition: opacity ease-in-out 0.15s;
+}
+.popup_content-contain .rich-text-element a:hover {
+  opacity: 0.75;
+}
+
+.svg-icon.crew-hero-icon1,
+.svg-icon.crew-hero-icon2 {
+  opacity: 0;
+}
+.svg-icon.crew-hero-icon1 {
+  transform: rotateZ(145deg) scale(0.55);
+}
+.svg-icon.crew-hero-icon2 {
+  transform: rotateZ(-180deg) scale(1.85);
+}
